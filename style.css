@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    position: relative;
+    background-color:rgb(6, 57, 151);
+    border: 1px solid ;
+    border-radius:30px; 
+}
+.bar ul{
+    overflow: auto;
+} 
+.bar li {
+    margin: 20;
+    float: left;
+    list-style: none;
+}
+.bar li a{
+    color: azure;
+    padding: 20px;
+    text-decoration:none ;
+}
+.main{
+    justify-content: space-around;
+    display: flex;
+}
+.infocontainer{
+    display: flex;
+}
+.pic img{
+    padding-top: 15px;
+    height: 80vh;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:gold;
+    font-size: 100px;
+}
+.i{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.i:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.design{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+.design:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.INFORMATION{
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 15px;
+}
